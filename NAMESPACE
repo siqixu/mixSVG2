@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+import(foreach)
+importFrom("stats", "glm", "median", "p.adjust", "pcauchy", "pchisq",
+           "poisson", "quantile", "var")
+importFrom("doParallel", "registerDoParallel")

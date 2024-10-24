@@ -1,0 +1,11 @@
+Package: mixSVG2
+Type: Package
+Title: mixSVG: An Omnibus Test of Mixed Effects for Detecting Spatially Variable Genes with Spatial Transcriptomics Data
+Version: 0.1.0
+Author: Siqi Xu
+Maintainer: Siqi Xu <eyxsq@scut.edu.cn>
+Description: The mixSVG package implements an omnibus test to detect spatially variable genes with spatial transcriptomics data, which tests for fixed effect (mean-level) and randome effect (variance-level) of spatial heteogeneity of gene expression simultaneously.
+Imports: foreach, doParallel
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
